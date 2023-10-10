@@ -28,7 +28,7 @@ jobs:
         run: yarn add jest
 
       - name: Run test
-        run: yarn test
+        run: sudo yarn test
 
       - name: Docker Login
         uses: docker/login-action@v3.0.0
